@@ -52,6 +52,12 @@ $ vgm ssh BOX_NAME
 ```
 will generate the command to do a ```vagrant ssh``` inside the box folder
 
+## Execute output
+```
+$ vgm u lamp | bash -
+```
+This will execute the command to go into the folder, run the up command and come back.
+
 ## Xclip Use Case
 ```
 $ vgm u lamp | xclip
